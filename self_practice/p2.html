@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pr2</title>
+</head>
+<body>
+    <p>
+        <em>비타민 C</em>와 <em>비타민 P</em>가 풍부해<br> 
+        혈액순환<sup>1</sup> <u>또는</u> 감기예방<sub>2</sub> 등에 좋<S>은 것으로 알려져 있</S>다.
+    </p>
+
+    <h3>일정</h3>
+    <ol type = "1">
+        <li>입춘맞이 : 1/27(월) ~ 1/31(금)</li>
+        <li>낭쉐코사 : 2/1(토)</li>
+        <li>거리굿 : 2/2(일)</li>
+        <li>열림굿 : 2/3(월)</li>
+        <li>입춘굿 : 2/4(화)</li>
+    </ol>
+    <h3>일정</h3>
+    <ul>
+        <li>입춘맞이 : 1/27(월) ~ 1/31(금)</li>
+        <li>낭쉐코사 : 2/1(토)</li>
+        <li>거리굿 : 2/2(일)</li>
+        <li>열림굿 : 2/3(월)</li>
+        <li>입춘굿 : 2/4(화)</li>
+    </ul>
+    <label for="Id">아이디(6자 이상)</label>
+    <input type="text" id = "Id"> <br><br>
+
+    <form action="user1/login.do" method = "post">
+        <fieldset>
+            <legend><b>상품 선택</b></legend>
+            <p>
+            <b>주문할 상품을 선택해 주세요.</b>
+            </p>
+            <input type="checkbox" name="" id="p3">
+            <label for="p3">선물용 3kg</label>
+            <input type="checkbox" name="" id="p5">
+            <label for="p5">선물용 5kg</label>
+            <input type="checkbox" name="" id="h3">
+            <label for="h3">가정용 3kg</label>
+            <input type="checkbox" name="" id="h5">
+            <label for="h5">가정용 5kg</label>
+            <p>
+                <b>포장 선택</b>
+            </p>
+            <input type="radio" name="packing" id="yes">
+            <label for="yes">선물 포장</label> <br>
+            <input type="radio" name="packing" id="no">
+            <label for="no">선물 포장 안 함</label> <br>
+            <p>
+                상품 선택
+                <select name="" id="">
+                <option value="d">선물용 3kg</option>
+                <option value="h">선물용 5kg</option>
+                <option value="h">가정용 3kg</option>
+                <option value="h">가정용 5kg</option>
+                </select>
+            </p>
+            <p>
+                포장 여부
+                <input type="text" name="" id="" list="pack">
+                <datalist id="pack">
+                    <option value="package">선물 포장</option>
+                    <option value="no_package">선물 포장 안 함</option>
+                </datalist>
+                </select>
+            </p>
+        </fieldset>
+        <h3>회원 가입을 환영합니다</h3>
+            <fieldset>
+                <legend>사용자 정보</legend>
+                <ul>
+                    <li>아이디 <input type="text" name="" id="" placeholder="4자 ~ 10자 사이, 공백없이" minlength = "4" maxlength = 10></li>
+                    <li>이메일 <input type="email" name="" id="" required></li>
+                    <li>비밀번호 <input type="text" name="" id="" placeholder="문자와 숫자, 특수 기호 포함"></li>
+                    <li>비밀번호 확인 <input type="text" name="" id=""></li>
+                    <li>가입 경로
+                        <select name="" id="">
+                            <option value="">블로그</option>
+                            <option value="">인스타</option>
+                            <option value="">페이스북</option>
+                        </select>
+                    </li>
+                    <li>메모 <textarea name="" id="" cols = "40" rows = "4" placeholder="남길 말씀이 있다면 여기에"></textarea></li>
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>이벤트와 새로운 소식</legend>
+                <input type="radio" name="mail" id="subscribe">
+                <label for="subscribe">메일 수신</label>
+                <input type="radio" name="mail" id="non-subscribe">
+                <label for="non-subscribe">메일 수신 안 함</label>
+            </fieldset>
+            <input type="submit" value="가입하기">
+            <input type="reset" value="취소">
+            <br> <br>
+            <fieldset>
+                <ul>
+                    <li><input type="checkbox" name="" id="">가정용 3kg <input type="range" name="" id="" min = "1" max = "5">개 (최대 5개)</li>
+                    <li><input type="checkbox" name="" id="">가정용 5kg <input type="range" name="" id="" min = "1" max = "3">개 (최대 3개)</li>
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>반품 정보</b></legend>
+                만일 수령한 상품에 문제가 있다면 <b>반품 신청</b>해 주세요. <br>
+                반품 신청시 상품의 상태를 사진으로 첨부해주세요 <hr>
+                <input type="file" name="" id="">
+            </fieldset>
+            <br>
+            <input type="hidden" name="">
+            아이디: <input type="text" name="" id="">
+            비밀번호: <input type="text" name="" id="">
+            <input type="submit" value="로그인">
+    </form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
