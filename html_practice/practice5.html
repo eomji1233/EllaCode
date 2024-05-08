@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>연습문제5</title>
+    </head>
+    <body>
+        <h2>레드향 주문하기</h2>
+        <form action="" method = "">
+            <fieldset>
+                <legend><b>상품 선택</b></legend>
+                <p>
+                <b>주문할 상품을 선택해 주세요</b><br><br>
+                    <input type="checkbox">선물용 3kg <input type="number" value = "0" min = "0" max = "5">개 <small>(최대 5개)</small><br>
+                    <input type="checkbox">선물용 5kg <input type="number" value = "0" min = "0" max = "3">개 <small>(최대 3개)</small><br>
+                    <input type="checkbox">가정용 3kg <input type="number" value = "0" min = "0" max = "5">개 <small>(최대 5개)</small><br>
+                    <input type="checkbox">선물용 5kg <input type="number" value = "0" min = "0" max = "3">개 <small>(최대 3개)</small><br>
+                </p>
+                <p>
+                <b>포장 선택</b> <br>
+                <input type="radio" name="package" id="yes">
+                <label for="yes">선물 포장</label><br>
+                <input type="radio" name="package" id="no">
+                <label for="no">선물 포장 안함</label>
+                </p>
+            </fieldset>
+        </form>
+        <form action="" method = "">
+            <fieldset>
+                <legend><b>배송 정보</b></legend>
+                이름 <input type="text" name="" id=""><br>
+                배송 주소 <input type="text" name="" id=""><br>
+                이메일 <input type="email" name="" id=""><br>
+                연락처 <input type="tel" name="" id="" placeholder="하이픈 빼고 입력해주세요(0123456789)"><br>
+                배송 지정 <input type="date" name="" id="">(주문일로부터 최소 3일 이후)<br>
+            </fieldset>
+            <input type="submit" value="주문하기">
+            <input type="reset" value="취소하기">
+        </form>
+    </body>
+</html>
