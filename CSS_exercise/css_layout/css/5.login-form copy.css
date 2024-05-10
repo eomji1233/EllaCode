@@ -1,0 +1,30 @@
+div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+--#header {
+    height: 30px;
+    width: 300px;
+}
+    #ID {
+        height: 30px;
+        width: 200px;
+        float: left;
+    }
+    #login {
+        height: 30px;
+        width: 100px;
+    }
+/* #main {
+    height: 30px;
+    width: 300px;
+} */
+    #PW {
+        height: 30px;
+        width: 200px;
+        float: left;
+    }
+#footer {
+    height: 25px;
+    width: 300px;
+}
