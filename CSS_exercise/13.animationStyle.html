@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>애니메이션 스타일</title>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+            }
+            .div-class {
+                background-color: powderblue;
+                animation-name: transAni;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                margin-left: 100px;
+                margin-top: 50px;
+            }
+            @keyframes transAni {
+                0% {
+                    background-color: aquamarine;
+                }
+                100% {
+                    background-color: aqua;
+                    border-radius: 50%;
+                    transform: rotateZ(360deg);
+                }
+            }
+            .div2-class {
+                background-color: black;
+                margin: 100px;
+                animation-name: rainbowAni;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes rainbowAni {
+                0% {background-color: red;}
+                15% {background-color: orange;}
+                30% {background-color: yellow;}
+                45% {background-color: green;}
+                60% {background-color: blue;}
+                75% {background-color: navy;}
+                100% {background-color: blueviolet;}
+            }
+            img {
+                width: 300px;
+                /* margin: 80px; */
+            }
+            img {
+                animation-name: imgAni;
+                animation-duration: 0.5s;
+                /* animation-iteration-count: infinite; */
+            }
+            @keyframes imgAni {
+                0% {
+                    border: 5px dotted white;
+                    /* 로테이트 180도는 거꾸로 된 이미지임
+                    50%로 갈 때는 이미지는 원래 모습으로 와야됨
+                    그래서 왼쪽으로 돌게 됨 */
+                }
+                50% {
+                    border-radius: 50%;
+                    transform: rotate(720deg);
+                    /* 0% 와 다르게 거꾸로 되어있지 않기 때문에
+                    거꾸로 되기위해 오른쪽으로 돌아버림
+                    100%로 갈 때는 원래 모습으로 와야되기 때문에
+                    왼쪽으로 돌아서 원래 모습으로 감 */
+                }
+                100% {
+                    border: 50px solid white
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>애니메이션</h1>
+        <div class="div-class"></div> <br>
+        <div class="div2-class"></div> <br><br><br>
+        <div>
+            <img src="./img/flower4.PNG" alt="flower">
+        </div>
+    </body>
+</html>

@@ -129,10 +129,21 @@ z-index는 값이 클수록 앞에 배치된다
 움직이는 것처럼 만들 수 있음
 블럭에서 텍스트 붙어있는게 싫어서 패딩주는것처럼
 만드는게 inline-block
+span 태그는 대표적인 inline 요소임(텍스트 크기에 맞춰서
+공간 가지는거)
+width랑 height가 전혀 안먹힘
+만약 값을 주고 싶으면 display를 block으로 바꿔야함
 
-
-
+SQL 자격증?
 5월 16일~6월 21일 까지 자바
 다음에 오라클
 다음에 DB
+
+--------------------------------------------------6일차
+기본값은 row(=inline-block) -reverse붙이면 반대
+column 세로로 -reverse붙이면 반대
+display flex 값은 무조건 부모에 붙이기
+양 끝에 space-around
+끝에 붙이고 간격같게 space-between
+전부 다 간격같게 space-evenly
 
