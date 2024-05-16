@@ -143,7 +143,19 @@ SQL 자격증?
 기본값은 row(=inline-block) -reverse붙이면 반대
 column 세로로 -reverse붙이면 반대
 display flex 값은 무조건 부모에 붙이기
-양 끝에 space-around
+양 옆 간격 같게 space-around
 끝에 붙이고 간격같게 space-between
 전부 다 간격같게 space-evenly
+
+--------------------------------------------------7일차
+디스플레이가 작아서 남는걸 화면에 내리는게
+flex-wrap : wrap;
+bootstrap 프론트엔드 프레임워크
+반응형 웹: 해상도에 따라 달라지는거
+미디어쿼리
+md까지 보이게 하는거 d-md-block d-none
+pico css : 미니멀한 css
+pyre css
+만들었던 html css 적용해보기
+
 
