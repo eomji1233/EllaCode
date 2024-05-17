@@ -160,6 +160,13 @@ pyre css
 
 --------------------------------------------------8일차
 jdk.javanet 에서 java se 11 설치
+class 뒤에 적는건 무 조 건 대문자로 시작한다
+eclipse java and web 2022-06 설치
+ctrl + f11 실행 단축키 (f11만 누르면 디버깅모드)
+ctrl + shift c 주석
+
+깃허브 토큰
+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
 
 
 
