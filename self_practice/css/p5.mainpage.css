@@ -1,0 +1,99 @@
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 110px;
+}
+    .logo {
+        width: 100%;
+        height: 70px;
+        background-color: #0D1B2A;
+        display: flex;
+    }
+    #mainLogo {
+        margin: 0;
+        --margin-left: 50px;
+        padding: 0;
+        --width: 150px;
+        width: 20%;
+    }
+    .Register {
+        width: 80%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        /* padding-left: 65%; */
+        justify-content: flex-end;
+        display: flex;
+    }
+        .Register>li {
+            text-decoration: none;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+        .Register li:first-child {
+            border-right: 1px solid white;
+        }
+        .Register a:link, a:visited {
+            color: white;
+            text-decoration: none;
+        }
+    .nav1 {
+        width: 100%;
+        height: 40px;
+        background-color: #273654;
+    }
+        .topMenu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-left: 30px;
+            display: flex;
+        }
+        .topMenu>li {
+            width: 100%;
+            float: left;
+            padding-top: 10px;
+            /* padding-left: 100px; */
+            justify-content: space-evenly;
+        }
+        .topMenu a:link, a:visited {
+            color: white;
+            text-decoration: none;
+        }
+main {}
+        .main1 {
+            width: 100%;
+            height: 300px;
+            background-color: #0D1B2A;
+            margin-top: 30px;
+        }
+            h1 {
+                color: white;
+                text-align: center;
+                margin: 0;
+                padding: 50px;
+                font-size: 2em;
+            }
+            input {
+                margin: 0;
+                padding: 0;
+                border: none;
+                width: 50%;
+                height: 15%;
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+            input::-webkit-input-placeholder {
+            font-size: 100%;
+            text-indent: 25px;
+            }
+        .main2 {
+            width: 80%;
+            height: 700px;
+            margin: 5% auto;
+            background-color: #c2d6ff;
+        }
