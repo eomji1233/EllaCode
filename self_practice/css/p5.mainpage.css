@@ -15,24 +15,22 @@ header {
     }
     #mainLogo {
         margin: 0;
-        --margin-left: 50px;
+        margin-left: 50px;
         padding: 0;
-        --width: 150px;
-        width: 20%;
+        width: 150px;
     }
     .Register {
-        width: 80%;
+        /* width: 100%; */
         list-style-type: none;
         padding: 0;
         margin: 0;
         /* padding-left: 65%; */
         justify-content: flex-end;
-        display: flex;
     }
         .Register>li {
+            float: left;
             text-decoration: none;
             padding-right: 5%;
-            padding-left: 5%;
         }
         .Register li:first-child {
             border-right: 1px solid white;
